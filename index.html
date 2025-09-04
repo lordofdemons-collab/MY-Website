@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Welcome To Coding</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="logo">
+                <!-- Your SVG Logo -->
+                <svg width="60" height="60" viewBox="0 0 404 379" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M257.583 56.2967C258.298 54.3675 255.688 53.1297 254.102 54.6463L187.606 118.235C186.805 119.001 186.763 120.139 187.51 120.823L219.539 150.151C220.615 151.136 222.596 150.617 223.117 149.213L257.583 56.2967Z"
+                        fill="#FAAA47" />
+                    <path
+                        d="M174.217 195.848C172.782 195.904 171.992 194.09 172.815 192.628L204.185 136.894C204.817 135.771 206.099 135.466 206.92 136.243L262.232 188.619C263.52 189.839 262.631 192.423 260.9 192.49L174.217 195.848Z"
+                        fill="#FE8515" />
+                    <path
+                        d="M185.215 174.749C183.759 175.681 181.831 174.725 181.971 173.14L186.551 121.211C186.697 119.553 188.942 118.764 190.179 119.935L221.049 149.158C221.922 149.984 221.739 151.355 220.666 152.043L185.215 174.749Z"
+                        fill="#FE9615" />
+                    <path
+                        d="M57.785 191.426C55.7284 191.362 55.5663 188.477 57.5689 187.58L141.535 149.966C142.547 149.512 143.616 149.902 143.968 150.852L159.057 191.575C159.563 192.943 158.336 194.582 156.839 194.535L57.785 191.426Z"
+                        fill="#FAAA47" />
+                    <path
+                        d="M218.469 166.826C219.061 165.518 217.68 164.103 216.015 164.314L152.567 172.356C151.289 172.518 150.522 173.591 150.933 174.643L178.59 245.621C179.234 247.274 181.962 247.425 182.677 245.847L218.469 166.826Z"
+                        fill="#FE8515" />
+                    <path
+                        d="M194.78 169.058C196.193 168.061 196.034 165.914 194.513 165.446L144.689 150.11C143.099 149.621 141.522 151.402 142.14 152.989L157.567 192.599C158.003 193.719 159.342 194.067 160.384 193.332L194.78 169.058Z"
+                        fill="#FE9615" />
+                    <path
+                        d="M265.128 280.41C265.76 282.329 263.472 283.867 261.933 282.559L158.724 194.827C158.317 194.481 158.066 193.987 158.025 193.454L152.393 119.368C152.275 117.82 153.89 116.734 155.279 117.427L221.775 150.575C222.253 150.814 222.615 151.233 222.782 151.74L265.128 280.41Z"
+                        fill="url(#paint0_linear_6_204)" />
+                    <defs>
+                        <linearGradient
+                            id="paint0_linear_6_204"
+                            x1="267.351"
+                            y1="287.165"
+                            x2="119.714"
+                            y2="250.185"
+                            gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F90000" />
+                            <stop offset="1" stop-color="#FF9900" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <!-- Logo Text -->
+                <h1>My Learning Academy</h1>
+            </div>
+            <!-- Navigation Menu -->
+            <nav class="nav">
+                <a href="#home">Home</a>
+                <a href="#courses">Courses</a>
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+        <section class="hero">
+            <video autoplay muted loop class="hero-video">
+                <source src="videos/hero-bg.mp4" type="video/mp4" />
+                Your browser does not support HTML5 video.
+            </video>
+
+            <div class="hero-content">
+                <h1>Welcome to My Learning Academy</h1>
+                <p>Your one-stop place for learning and services.</p>
+                <a href="#courses" class="btn">Explore Courses</a>
+            </div>
+        </section>
+
+        <main>
+            <section id="home" class="home-section fade-in">
+                <h2>Welcome to My Learning Academy</h2>
+                <div class="home-content">
+                    <div class="home-card">
+                        <span class="icon">🎯</span>
+                        <h3>Our Mission</h3>
+                        <p>
+                            Our mission is to make high-quality education accessible to everyone. Whether you’re just
+                            starting your coding journey or aiming to master advanced fields like data science, we
+                            provide the tools, guidance, and resources you need.
+                        </p>
+                    </div>
+
+                    <div class="home-card">
+                        <span class="icon">📚</span>
+                        <h3>Learn Your Way</h3>
+                        <p>
+                            Study at your own pace with interactive lessons, hands-on projects, and real-world
+                            challenges designed to sharpen your skills.
+                        </p>
+                    </div>
+
+                    <div class="home-card">
+                        <span class="icon">👩‍🏫</span>
+                        <h3>Expert Guidance</h3>
+                        <p>
+                            With expert instructors and a supportive community, you’ll never feel alone on your journey.
+                            Our mentors are always ready to help you grow.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="courses" class="courses-section fade-in">
+                <h2>Our Courses</h2>
+                <p class="courses-intro">
+                    We offer a wide range of courses designed to help you grow your skills step by step. Whether you are
+                    interested in web development, programming, or advanced data science, you’ll find the right path
+                    here.
+                </p>
+
+                <!-- Feature List -->
+                <div class="course-features">
+                    <div class="feature">
+                        <span class="icon">🌐</span> Web Development – Learn HTML, CSS, JavaScript, and build modern
+                        websites.
+                    </div>
+                    <div class="feature">
+                        <span class="icon">🐍</span> Python Programming – Start coding with one of the most powerful
+                        languages.
+                    </div>
+                    <div class="feature">
+                        <span class="icon">📊</span> Data Science – Analyze, visualize, and make predictions using
+                        real-world data.
+                    </div>
+                    <div class="feature">
+                        <span class="icon">🤖</span> Machine Learning – Build intelligent systems with algorithms and
+                        models.
+                    </div>
+                </div>
+                <!-- Courses Table -->
+                <div class="table-wrapper">
+                    <table class="courses-table">
+                        <thead>
+                            <tr>
+                                <th>Course</th>
+                                <th>Duration</th>
+                                <th>Difficulty</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>🌐 Web Development</td>
+                                <td>3 Months</td>
+                                <td>Beginner</td>
+                                <td><button class="enroll-btn">Enroll</button></td>
+                            </tr>
+                            <tr>
+                                <td>🐍 Python Programming</td>
+                                <td>2 Months</td>
+                                <td>Intermediate</td>
+                                <td><button class="enroll-btn">Enroll</button></td>
+                            </tr>
+                            <tr>
+                                <td>📊 Data Science</td>
+                                <td>6 Months</td>
+                                <td>Advanced</td>
+                                <td><button class="enroll-btn">Enroll</button></td>
+                            </tr>
+                            <tr>
+                                <td>🤖 Machine Learning</td>
+                                <td>4 Months</td>
+                                <td>Advanced</td>
+                                <td><button class="enroll-btn">Enroll</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="services" class="services-section fade-in">
+                <h2>Our Services</h2>
+                <p class="services-intro">
+                    We provide top-quality services to ensure your learning journey is smooth and rewarding.
+                </p>
+                <!-- Services Highlights -->
+                <div class="services-highlights">
+                    <div class="highlight">🎓 Personalized Learning Paths</div>
+                    <div class="highlight">📖 Study Materials & Resources</div>
+                    <div class="highlight">💬 24/7 Student Support</div>
+                    <div class="highlight">📜 Certification on Course Completion</div>
+                    <div class="highlight">👩‍🏫 Live Mentorship Sessions</div>
+                </div>
+                <!-- Services Table -->
+                <div class="table-wrapper">
+                    <table class="services-table">
+                        <thead>
+                            <tr>
+                                <th>Service</th>
+                                <th>Description</th>
+                                <th>Pricing</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>🎓 Online Courses</td>
+                                <td>Access 100+ professional courses anytime, anywhere.</td>
+                                <td>Free & Paid Plans</td>
+                            </tr>
+                            <tr>
+                                <td>🧑‍🏫 Mentorship</td>
+                                <td>1-on-1 mentoring sessions with industry experts.</td>
+                                <td>$50 / Session</td>
+                            </tr>
+                            <tr>
+                                <td>💼 Career Guidance</td>
+                                <td>Get career advice, resume reviews, and interview prep.</td>
+                                <td>Included in Pro Plan</td>
+                            </tr>
+                            <tr>
+                                <td>⚙️ Custom Training</td>
+                                <td>Tailored training programs for teams & businesses.</td>
+                                <td>Contact for Quote</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="about" class="about-section fade-in">
+                <div class="about-container">
+                    <!-- Left: Text -->
+                    <div class="about-text-container">
+                        <h2>About Us</h2>
+                        <p>
+                            <strong>My Learning Academy</strong> was founded with the vision of making education
+                            flexible, affordable, and accessible to all. Our goal is to empower learners with skills
+                            that matter in today’s world.
+                        </p>
+                        <p>
+                            We combine expert knowledge, interactive tools, and community support to provide a complete
+                            learning experience. With us, you don’t just learn —
+                            <span class="highlight">you build a future.</span>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact-section fade-in">
+                <div class="contact-container">
+                    <h2>Contact Us</h2>
+                    <p>Have questions or need help? We’re here to guide you. Reach out to us anytime!</p>
+
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Enter your name" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Enter your email" required />
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                rows="5"
+                                placeholder="Write your message here..."
+                                required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer style="background: #111; color: #fff; text-align: center; padding: 30px 0">
+            <p>© 2025 My Website. All rights reserved.</p>
+        </footer>
+        <script src="script.js" defer></script>
+    </body>
+</html>
